@@ -1,28 +1,22 @@
-# 🧮 Calculadora de Newton-Raphson
+# Método de Newton-Raphson com Interface Gráfica em Python
 
-Este repositório contém um código em **Python** que emula uma **calculadora de Newton-Raphson**, um método iterativo utilizado para encontrar aproximações das raízes de uma função não-linear. O método de Newton-Raphson é amplamente utilizado em problemas matemáticos e científicos por sua eficiência na solução de equações.
+Este projeto implementa o **Método de Newton-Raphson** usando **Python**, com uma interface gráfica simples criada com **Tkinter**. O método de Newton-Raphson é utilizado para encontrar raízes de funções, e este programa aplica o método à função `f(x) = x³ - x - 4`.
 
----
+## Funcionalidades
 
-## 📚 Sobre o Método de Newton-Raphson
+- **Interface gráfica**: A interface permite que o usuário insira um valor inicial (`x0`) e calcule a raiz da função.
+- **Método de Newton-Raphson**: O programa calcula a raiz da função `f(x) = x³ - x - 4` usando o método iterativo de Newton-Raphson.
+- **Exibição do resultado**: A solução final e o erro do cálculo são exibidos na interface gráfica após o cálculo.
 
-O método de **Newton-Raphson** usa aproximações sucessivas para encontrar a raiz de uma função \( f(x) = 0 \). Dada uma aproximação inicial \( x_0 \), a próxima aproximação \( x_1 \) é dada por:
+## Tecnologias Utilizadas
 
-\[
-x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
-\]
+- **Python 3**: Linguagem de programação utilizada.
+- **Tkinter**: Biblioteca padrão do Python para criar interfaces gráficas.
+- **SymPy**: Biblioteca utilizada para cálculos simbólicos e diferenciação automática da função.
 
-Onde:
-- \( f(x) \) é a função alvo.
-- \( f'(x) \) é a derivada de \( f(x) \).
-  
-O processo é repetido até que a solução convirja para um valor satisfatório, ou seja, quando o erro absoluto entre as iterações for menor que um valor de tolerância definido.
+## Pré-requisitos
 
----
+Certifique-se de que as seguintes bibliotecas estão instaladas em seu ambiente:
 
-## 🛠️ Tecnologias Utilizadas
-
-- **Python 3.x**: Linguagem de programação utilizada para implementar o método de Newton-Raphson.
-- **Bibliotecas Matemáticas**: Como `math` para funções matemáticas padrão (se necessário).
-
----
+- **Tkinter**: Já vem instalada por padrão com a maioria das distribuições Python.
+- **SymPy**: Para instalar o SymPy, use o seguinte comando:
