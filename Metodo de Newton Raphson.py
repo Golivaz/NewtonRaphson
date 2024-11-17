@@ -11,6 +11,7 @@ def calcular():
     df = sp.diff(f,x)
 
     # Obtenha o valor inicial de x0 a partir da entrada da interface
+
     try:
         x0 = float(entry_x0.get())
     except ValueError:
