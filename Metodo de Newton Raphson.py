@@ -2,6 +2,7 @@ import tkinter as tk
 import sympy as sp
 
 # Função para calcular o método de Newton-Raphson
+
 def calcular():
     x = sp.symbols("x")
     epslon = 0.001
