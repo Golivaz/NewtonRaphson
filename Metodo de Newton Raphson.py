@@ -42,6 +42,7 @@ botao_calcular = tk.Button(root, text="Calcular", command=calcular)
 botao_calcular.pack()
 
 resultado_label = tk.Label(root, text="")
+
 resultado_label.pack()
 
 # Iniciar o loop da interface gráfica
